@@ -1,0 +1,104 @@
+<mxfile host="Electron" modified="2024-01-17T17:13:53.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.0 Chrome/114.0.5735.289 Electron/25.8.3 Safari/537.36" etag="OVXKdjeANyRgkuS7oZ_g" version="22.0.0" type="device">
+  <diagram name="Page-1" id="QCOf9hSY7YPqZ0dJmGkq">
+    <mxGraphModel dx="989" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7eJvjXgx0L8CgwSd0zJ-27" target="q7eJvjXgx0L8CgwSd0zJ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-27" value="&amp;nbsp;For each paragraph:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="320" width="720" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-29" value="For each line:&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="360" width="440" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-6" value="&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Text file&lt;/span&gt;&lt;/li&gt;&lt;li&gt;The first line of text contains&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&quot;seeds: &quot;&lt;/li&gt;&lt;li&gt;A list of seed numbers separated by spaces&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Each subsequent paragraph is separated by an empty line&lt;/li&gt;&lt;li&gt;Each paragraph contains&lt;/li&gt;&lt;ul&gt;&lt;li&gt;The name of the map (eg: &quot;seed-to-soil map:&quot;)&lt;/li&gt;&lt;li&gt;A three number map per line:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;The desination range start&lt;/li&gt;&lt;li&gt;The source range start&lt;/li&gt;&lt;li&gt;The range length&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;A source number will either fall within a range, in which case map it to its desitnation, or it won&#39;t, in which case it in unchanged&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Follow each seed down the layers of maps, and return the smallest location number.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="300" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-7" value="Logic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-8" value="Variable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-9" value="Loop" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-10" value="Note" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-11" value="Class" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#FFFFFF;strokeColor=#B09500;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7eJvjXgx0L8CgwSd0zJ-13" target="q7eJvjXgx0L8CgwSd0zJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-13" value="Input: Text file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q7eJvjXgx0L8CgwSd0zJ-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="599" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-15" value="Read file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-17" value="&amp;nbsp;For each line:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="160" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7eJvjXgx0L8CgwSd0zJ-18" target="q7eJvjXgx0L8CgwSd0zJ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7eJvjXgx0L8CgwSd0zJ-18" target="q7eJvjXgx0L8CgwSd0zJ-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="260" />
+              <mxPoint x="820" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-18" value="Divide into paragraphs separated by empty lines" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="680" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7eJvjXgx0L8CgwSd0zJ-19" target="q7eJvjXgx0L8CgwSd0zJ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-19" value="Form a list of seed numbers from the first line" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="840" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-21" value="Cut &quot;Seeds :&quot; and separate by space" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="880" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-22" value="Remove first line of paragraph" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1040" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q7eJvjXgx0L8CgwSd0zJ-28" target="q7eJvjXgx0L8CgwSd0zJ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-28" value="Separate into three individual numbers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1241" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q7eJvjXgx0L8CgwSd0zJ-31" target="q7eJvjXgx0L8CgwSd0zJ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-31" value="Order each trio by lowest source range start" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1360" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-32" value="Find upper bound of source range and offset" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1480" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q7eJvjXgx0L8CgwSd0zJ-35" target="q7eJvjXgx0L8CgwSd0zJ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-35" value="Pass seed numbers through created model" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1680" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7eJvjXgx0L8CgwSd0zJ-38" value="Record running lowest location number" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1800" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
